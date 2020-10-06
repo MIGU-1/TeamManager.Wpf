@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TeamManager.Wpf"
         mc:Ignorable="d"
-        Title="AddAndEditWindow" Height="190" Width="400">
+        Title="AddAndEditWindow" Height="200" Width="400"
+        Style="{StaticResource ResourceKey=WindowStyle}">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
